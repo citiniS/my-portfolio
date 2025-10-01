@@ -10,8 +10,7 @@ import {
   faPaperPlane
 } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { DndContext, useDraggable } from '@dnd-kit/core';
-import { CSS } from '@dnd-kit/utilities';
+import { DndContext, useDraggable, DragEndEvent } from '@dnd-kit/core';
 import Wave from 'react-wavify';
 import classNames from 'classnames';
 import { Tooltip } from 'react-tooltip';
@@ -114,7 +113,7 @@ export default function Portfolio() {
   const [chatMessages, setChatMessages] = useState<Array<{text: string, sender: 'user' | 'bot'}>>([]);
   const [isTyping, setIsTyping] = useState(false);
 
-  const handleDragEnd = (event: any) => {
+  const handleDragEnd = (event: DragEndEvent) => {
     const { delta } = event;
     setCardPosition((prev) => ({
       x: prev.x + delta.x,
@@ -433,7 +432,7 @@ export default function Portfolio() {
                 <div className="space-y-4">
                   <p className="leading-relaxed">
                     Hi, I am Yin Bo Chen. 
-                    <br /> I'm<strong> Chinese Malaysian</strong>
+                    <br /> I&apos;m<strong> Chinese Malaysian</strong>
                   </p>
                   <p className="leading-relaxed">
                     Currently Studying for: <strong>Bachelor of Science in Computer Science at Champlain College</strong><br />
