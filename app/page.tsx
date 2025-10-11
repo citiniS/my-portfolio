@@ -432,7 +432,7 @@ export default function Portfolio() {
                 <div className="space-y-4">
                   <p className="leading-relaxed">
                     Hi, I am Yin Bo Chen. 
-                    <br /> I&apos;m<strong> Chinese Malaysian</strong> born in the US.
+                    <br /> I&apos;m a<strong> Chinese Malaysian</strong> born in the US.
                   </p>
                   <p className="leading-relaxed">
                     Currently Studying for: <strong>Bachelor of Science in Computer Science at Champlain College</strong><br />
