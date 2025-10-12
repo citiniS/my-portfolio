@@ -336,7 +336,7 @@ export default function Portfolio() {
                 'text-gray-600': !darkMode
               }
             )}>
-              why are you here? theres nothing.
+              why are you here? theres nothing. Design inspired by <a href="https://www.sharyap.com/">sharyap.com/</a>
             </p>
           </div>
         </DraggableCard>
