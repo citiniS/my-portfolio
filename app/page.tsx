@@ -247,7 +247,7 @@ export default function Portfolio() {
                 'text-gray-700': !darkMode
               }
             )}>
-              3rd year CS student and caffeine + game addict
+              4th year CS student and caffeine & game addict
             </p>
 
             {/* Navigation Icons */}
